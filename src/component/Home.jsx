@@ -34,7 +34,7 @@ height: 105vh;
   height: 500px;
   /* margin: 5px0 auto; */
   /* margin-left: 510px; */
-  /* margin-left: 30px; */
+  margin-left: -20px;
   
 }
 
