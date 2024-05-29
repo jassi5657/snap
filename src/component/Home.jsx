@@ -11,10 +11,10 @@ const Home = () => {
       <Button>
         
 
-      <button className="btn1"> <img src="https://lh3.googleusercontent.com/COxitqgJr1sJnIDe8-jiKhxDx1FrYbtRHKJ9z_hELisAlapwE9LUPh6fcXIfb5vwpbMl4xl9H9TRFPc5NOO8Sb3VSgIBrfRYvW6cUA" className="google" />Continue with Google</button>
-      <button className='btn2'>Sign Up</button>
+      {/* <button className="btn1"> <img src="https://lh3.googleusercontent.com/COxitqgJr1sJnIDe8-jiKhxDx1FrYbtRHKJ9z_hELisAlapwE9LUPh6fcXIfb5vwpbMl4xl9H9TRFPc5NOO8Sb3VSgIBrfRYvW6cUA" className="google" />Continue with Google</button> */}
+      <button className='btn2'> <Link style={{textDecoration:"none", color:"white"}} to="/login"> Log In </Link></button>
 
-      <p>Already have an account? <Link to="/login"> <span style={{color:"rgb(14,173,255)"}}> Log in </span></Link></p>
+      {/* <p>Already have an account? <Link to="/login"> <span style={{color:"rgb(14,173,255)"}}> Log in </span></Link></p> */}
       </Button>
 
     </Container>
