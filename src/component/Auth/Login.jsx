@@ -35,7 +35,7 @@ const Container = styled.div`
 
 form{
     display: grid;
-    margin-left: -330px;
+    margin-left: -430px;
 }
 
 .phn{
