@@ -34,7 +34,7 @@ height: 105vh;
   height: 500px;
   /* margin: 5px0 auto; */
   /* margin-left: 510px; */
-  margin-left: -40px;
+  margin-left: -50px;
   
 }
 
@@ -72,7 +72,7 @@ font-weight: 600;
 p{
     text-decoration: none;
     /* margin-left: 630px; */
-    margin-left: 150px;
+    margin-left: 70px;
 }
 
 
