@@ -33,7 +33,8 @@ height: 105vh;
   width: 500px;
   height: 500px;
   /* margin: 5px0 auto; */
-  margin-left: 510px;
+  /* margin-left: 510px; */
+  margin-left: 30px;
   
 }
 
@@ -70,13 +71,11 @@ font-weight: 600;
 
 p{
     text-decoration: none;
-    margin-left: 630px;
+    /* margin-left: 630px; */
+    margin-left: 150px;
 }
 
-@media screen and (max-width: 468px){
-    
-    
-}
+
 
 `;
 

