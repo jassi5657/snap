@@ -8,7 +8,7 @@ function Register() {
   return (
     <Container>
 
-<h1 style={{marginLeft:"200px"}}>Log In</h1>
+<h1 style={{marginLeft:"150px"}}>Log In</h1>
 
     <form action="https://formspree.io/f/xayzloyg" method='POST'>
         <label style={{color:"rgb(14,173,255)", marginLeft:"540px"}}>USERNAME OR EMAIL</label>
